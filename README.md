@@ -41,20 +41,12 @@ ESTRUCTURA DEL PROYECTO
  CONFIGURACIÓN Y EJECUCIÓN
 ------------------------------------------
 1️⃣ Clonar el repositorio  
-   git clone https://github.com/tuusuario/ReadmateTasks.git  
+   git clone https://github.com/davidgrx13/ReadMateTasks.git
 
-2️⃣ Configurar Firebase  
-   - Crear un nuevo proyecto en Firebase Console  
-   - Agregar una app Android y descargar `google-services.json` en `app/`  
-   - Habilitar Firebase Authentication y Firestore Database  
-
-3️⃣ Abrir el proyecto en Android Studio  
+2️⃣ Abrir el proyecto en Android Studio  
    - Usar Android Studio Flamingo o superior  
-   - Sincronizar dependencias con Gradle  
 
-4️⃣ Ejecutar la aplicación  
-   - Seleccionar un emulador o dispositivo físico  
-   - Presionar "Run" ▶️  
+3️⃣  Ejecutar la aplicación  
 
 ------------------------------------------
  AUTOR
