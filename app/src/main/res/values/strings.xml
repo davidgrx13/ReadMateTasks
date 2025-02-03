@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">ReadMateTasks</string>
+
+    <!-- Home -->
+    <string name="profile_edit">Edit profile</string>
+    <string name="logout">Log out</string>
+    <string name="user_unknown">Unknown user</string>
+    <string name="user_pic">Profile pic</string>
+    <string name="profile_title">You</string>
+    <string name="main_menu">Home</string>
+    <string name="task_list">Task List</string>
+    <string name="task_create">Create new task</string>
+
+    <!-- Login -->
+    <string name="app_logo">ReadMate logo</string>
+    <string name="init_old">Welcome, reader</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="pass_confirmation">Confirm password</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="dont_account">Don\'t have an account?</string>
+    <string name="not_account">Create a new account</string>
+
+    <!-- Register -->
+    <string name="init_new">Glad to meet you</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="ex_account">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="name">Name and Surname</string>
+    <string name="pass_show">Show password</string>
+    <string name="pass_hide">Hide password</string>
+    <string name="pass_match">Passwords do not match</string>
+
+    <!-- New Tasks -->
+    <string name="task_create_title">Create new task</string>
+    <string name="task_title">Title</string>
+    <string name="task_description">Description</string>
+    <string name="task_date_time">Date and Time</string>
+    <string name="task_no_date">No Date</string>
+    <string name="task_select_date_time">Select Date and Time</string>
+    <string name="task_capture_image">Capture Image</string>
+    <string name="task_image_saved">Captured image:</string>
+    <string name="task_save">Save Task</string>
+    <string name="task_back_to_menu">Return to Main Menu</string>
+    <string name="task_created_success">Task successfully created</string>
+    <string name="task_image_success">Pic saved</string>
+    <string name="task_created_error">Error creating task</string>
+    <string name="task_image_error">Error saving image</string>
+
+    <!-- Tasks List -->
+    <string name="task_no_available">No tasks available</string>
+    <string name="task_completed">Task completed</string>
+    <string name="task_error_completed">Error marking as completed: </string>
+    <string name="task_deleted">Task deleted</string>
+    <string name="task_error_deleted">Error deleting task: </string>
+    <string name="task_image">Task image</string>
+    <string name="task_time">Date: </string>
+    <string name="task_complete">Completed</string>
+    <string name="task_delete">Delete</string>
+
+    <!-- Error -->
+    <string name="error_invalid_credentials">Incorrect email or password</string>
+    <string name="error_user_disabled">This account has been disabled</string>
+    <string name="error_too_many_attempts">Too many failed attempts, please try again later</string>
+    <string name="error_server">Server connection error</string>
+    <string name="error_empty_fields">Fields cannot be empty</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_invalid_username">Enter your first and last name</string>
+    <string name="error_invalid_password">Password must have at least 6 characters and one uppercase letter</string>
+    <string name="error_saving_user">Error saving user data.</string>
+    <string name="error_getting_user_id">Error retrieving user ID.</string>
+    <string name="error_unknown">Unknown error</string>
+
+</resources>

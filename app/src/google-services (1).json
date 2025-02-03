@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "944600163060",
+    "project_id": "gestoractividades-b3a76",
+    "storage_bucket": "gestoractividades-b3a76.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944600163060:android:cc2b94ffa5beb6b42bb4a1",
+        "android_client_info": {
+          "package_name": "com.example.gestoractividades"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARWdLoqH6ClEsLXqi-bQ0E-hJpPJpCotQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

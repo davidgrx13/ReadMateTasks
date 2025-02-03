@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "725039704413",
+    "project_id": "taskmanager-dgr13",
+    "storage_bucket": "taskmanager-dgr13.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725039704413:android:6b86fbff3e1f29079ca0b4",
+        "android_client_info": {
+          "package_name": "com.example.readmatetasks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFcao9IArgl0DMMw_jllunKlp6qpPw9Dk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
