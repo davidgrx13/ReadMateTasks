@@ -57,6 +57,7 @@ import com.airbnb.lottie.compose.LottieAnimation
 import com.airbnb.lottie.compose.LottieCompositionSpec
 import com.airbnb.lottie.compose.rememberLottieComposition
 import com.airbnb.lottie.compose.animateLottieCompositionAsState
+import com.example.readmatetasks.ui.components.CommonButton
 
 /**
  * Pantalla de registro de usuario.
@@ -244,22 +245,11 @@ fun RegisterScreen(
             Spacer(modifier = Modifier.height(30.dp))
 
             // Botón de Creación de cuenta
-            Button(
+            CommonButton(
+                textResId = R.string.create_account,
                 onClick = { registerViewModel.registerUser(email, pass, username) },
-                enabled = passMatch && email.isNotBlank() && pass.isNotBlank(),
-                colors = ButtonDefaults.buttonColors(containerColor = AccentColor),
-                modifier = Modifier
-                    .align(Alignment.CenterHorizontally)
-                    .width(280.dp)
-                    .height(55.dp),
-                shape = RoundedCornerShape(15.dp),
-            ) {
-                Text(
-                    text = stringResource(id = R.string.create_account),
-                    color = SecondAccent,
-                    style = MaterialTheme.typography.labelLarge,
-                )
-            }
+                enabled = passMatch && email.isNotBlank() && pass.isNotBlank()
+            )
 
             Spacer(modifier = Modifier.height(12.dp))
 

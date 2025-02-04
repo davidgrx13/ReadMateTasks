@@ -257,7 +257,7 @@ fun TaskCard(
                     Icon(
                         imageVector = Icons.Default.Delete,
                         contentDescription = stringResource(id = R.string.task_delete),
-                        tint = SecondAccent
+                        tint = Color.White
                     )
                 }
             }

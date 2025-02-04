@@ -20,6 +20,7 @@ import com.example.readmatetasks.ui.theme.*
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
+import com.example.readmatetasks.ui.components.TaskButton
 
 /**
  * Pantalla principal del usuario, donde puede ver su perfil y acceder a las opciones de gestión de tareas.
@@ -157,38 +158,16 @@ fun OptionMenu(
     ) {
         Spacer(modifier = Modifier.height(50.dp))
 
-        Button(
-            onClick = onNavigateToCreateTask,
-            colors = ButtonDefaults.buttonColors(containerColor = AccentColor),
-            modifier = Modifier
-                .align(Alignment.CenterHorizontally)
-                .fillMaxWidth()
-                .height(55.dp),
-            shape = RoundedCornerShape(15.dp)
-        ) {
-            Text(
-                text = stringResource(id = R.string.task_create),
-                color = SecondAccent,
-                style = MaterialTheme.typography.labelLarge,
-            )
-        }
+        TaskButton(
+            textResId = R.string.task_create,
+            onClick = onNavigateToCreateTask
+        )
 
         Spacer(modifier = Modifier.height(12.dp))
 
-        Button(
-            onClick = onNavigateToListTasks,
-            colors = ButtonDefaults.buttonColors(containerColor = AccentColor),
-            modifier = Modifier
-                .align(Alignment.CenterHorizontally)
-                .fillMaxWidth()
-                .height(55.dp),
-            shape = RoundedCornerShape(15.dp)
-        ) {
-            Text(
-                text = stringResource(id = R.string.task_list),
-                color = SecondAccent,
-                style = MaterialTheme.typography.labelLarge
-            )
-        }
+        TaskButton(
+            textResId = R.string.task_list,
+            onClick = onNavigateToListTasks
+        )
     }
 }

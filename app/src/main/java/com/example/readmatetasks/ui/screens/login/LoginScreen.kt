@@ -28,6 +28,7 @@ import com.example.readmatetasks.data.repository.AuthRepository
 import com.example.readmatetasks.R
 import com.example.readmatetasks.ui.theme.*
 import com.airbnb.lottie.compose.*
+import com.example.readmatetasks.ui.components.CommonButton
 
 /**
  * Pantalla de inicio de sesión.
@@ -135,22 +136,11 @@ fun LoginScreen(
             Spacer(modifier = Modifier.height(30.dp))
 
             // Botón de inicio de sesión
-            Button(
+            CommonButton(
+                textResId = R.string.sign_in,
                 onClick = { loginViewModel.loginUser(email, password) },
-                enabled = email.isNotBlank() && password.isNotBlank(),
-                colors = ButtonDefaults.buttonColors(containerColor = AccentColor),
-                modifier = Modifier
-                    .align(Alignment.CenterHorizontally)
-                    .width(280.dp)
-                    .height(55.dp),
-                shape = RoundedCornerShape(15.dp),
-            ) {
-                Text(
-                    text = stringResource(id = R.string.sign_in),
-                    color = SecondAccent,
-                    style = MaterialTheme.typography.labelLarge,
-                )
-            }
+                enabled = email.isNotBlank() && password.isNotBlank()
+            )
 
             Spacer(modifier = Modifier.height(16.dp))
 
