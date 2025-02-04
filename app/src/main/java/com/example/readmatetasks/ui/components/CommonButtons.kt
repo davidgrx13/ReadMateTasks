@@ -14,6 +14,13 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import com.example.readmatetasks.ui.theme.*
 import androidx.compose.material3.MaterialTheme
 
+/**
+ * Un botón común.
+ *
+ * @param textResId El recurso de cadena que representa el texto del botón.
+ * @param onClick Acción que se ejecuta cuando se presiona el botón.
+ * @param enabled Indica si el botón está habilitado o deshabilitado.
+ */
 @Composable
 fun CommonButton(
     textResId: Int,
@@ -37,6 +44,12 @@ fun CommonButton(
     }
 }
 
+/**
+ * Un botón utilizado para acciones relacionadas con tareas.
+ *
+ * @param textResId El recurso de cadena que representa el texto del botón.
+ * @param onClick Acción que se ejecuta cuando se presiona el botón.
+ */
 @Composable
 fun TaskButton(
     textResId: Int,
